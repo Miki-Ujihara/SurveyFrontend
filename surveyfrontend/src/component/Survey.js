@@ -35,6 +35,10 @@ export function Survey() {
         }
     }
 
+    async function checkEmail() {
+
+    }
+
     const handleQuestionTwo = (rate: number) => {
         setQuestionTwo(rate)
     }
@@ -71,9 +75,8 @@ export function Survey() {
                     <Col>
                         <Form>
                             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-                                <Form.Label className={"input-label"}>1. Vor- Nachname</Form.Label>
-                                <Form.Control onChange={e => setQuestionOne(e.target.value)} defaultValue={questionOne}
-                                                type="text" className="name"/>
+                                <Form.Label className={"input-label"}>1. Email</Form.Label>
+                                <Form.Control  onChange={e => setQuestionOne(e.target.value)} defaultValue={questionOne} className={"email"} type="email" placeholder="vorname.nachname@mgb.ch"/>
                             </Form.Group>
                             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                                 <Form.Label className={"input-label"}>2. Motivation</Form.Label>
@@ -123,7 +126,7 @@ export function Survey() {
                                                 rows={3}/>
                             </Form.Group>
                             <Button className={"submit-button"} onClick={() => submit()}
-                                    type={"submit"}>Absenden</Button>
+                                    type={"button"}>Absenden</Button>
                         </Form>
                     </Col>
                 </Row>
