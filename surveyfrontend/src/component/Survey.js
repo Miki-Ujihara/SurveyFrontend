@@ -35,10 +35,6 @@ export function Survey() {
         }
     }
 
-    async function checkEmail() {
-
-    }
-
     const handleQuestionTwo = (rate: number) => {
         setQuestionTwo(rate)
     }
