@@ -4,7 +4,7 @@ import {Survey} from './component/Survey';
 
 function App() {
     return (
-        <div className={"main"}>
+        <div className={"container"}>
             <Survey/>
         </div>
     );

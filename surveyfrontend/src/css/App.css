@@ -7,8 +7,22 @@ body {
     display: block;
 }
 
+.header-bar {
+    background-color: black;
+    height: 5vh;
+    margin-bottom: 2vh;
+}
+
+.outline-light {
+    margin-left: 1vw;
+}
+
+.info {
+    margin-right: 1vw;
+}
+
 .container-fluid {
-    width: 70% !important;
+    width: 50% !important;
     display: block;
     margin: 0;
     position: absolute;
@@ -73,7 +87,7 @@ h1 {
     text-align: center;
 }
 
-.form {
+.container {
     display: block;
     margin: 0;
     position: absolute;
@@ -83,11 +97,19 @@ h1 {
     height: 95vh;
 }
 
-.star {
-    color: #ff9933;
-    cursor: pointer;
+.submit-button, .backButton {
+    margin-bottom: 5vh;
 }
 
-.submit-button {
-    margin-bottom: 5vh;
+.backButton {
+    margin-left: 1vw;
+}
+
+.dropDown {
+    width: 20vw !important;
+    margin: 3vh 0 3vh 0 !important;
+}
+
+.update-button {
+    margin-right: 1vw !important;
 }
