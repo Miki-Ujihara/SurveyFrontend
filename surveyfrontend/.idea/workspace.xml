@@ -44,7 +44,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../uek_m223" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DatabaseBVJFrontend/DatabaseBVJFrontend" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
@@ -105,7 +105,7 @@
       <workItem from="1644222576520" duration="1194000" />
       <workItem from="1644309870845" duration="599000" />
       <workItem from="1644334647765" duration="18000" />
-      <workItem from="1644404363064" duration="1615000" />
+      <workItem from="1644404363064" duration="2211000" />
     </task>
     <servers />
   </component>
